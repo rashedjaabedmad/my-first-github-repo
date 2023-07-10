@@ -90,6 +90,9 @@ nav a{
 .bannar-containt{
     max-width: 500;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* main section */
 .about{
@@ -98,3 +101,65 @@ nav a{
     background: #fff8f3;
     margin: 130px 0;
 }
+main{
+    width:1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.about-info{
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+   
+
+}
+.skill{
+    padding:30px ;
+   
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+   color:#757575
+}
+resume-column-title{
+    color:#474747;
+
+font-size: 30px;
+
+font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    gap:60px;
+}
+.down{
+    color:white;
+    background-color: #FD6E0A;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+border-radius: 5px;
+}
+.resume-item-info , .resume-item-description{
+   color: #757575
+}
+
+
+.resume-column-title{
+color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; }
